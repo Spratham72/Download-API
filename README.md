@@ -61,8 +61,8 @@ To use this application, you'll need a Google account and access to the Google D
    CLIENT_ID = <your-client-id>
    CLIENT_SECRET= <your-client-secret>
    PROJECT_ID = <your-project-id>
-   REDIRECT_URI = http://localhost:3000/google/redirect
-   PORT = 3000
+   REDIRECT_URI = http://localhost:PORT/google/redirect
+   PORT = <PORT>
    ```
 
 ## Usage
@@ -72,9 +72,9 @@ To run the application, execute the following command in your terminal:
 ```bash
 npm start
 ```
-- To Login in app hit http://localhost:3000/google/auth; Make sure to add gmail in test users in your console
-- To download the video hit http://localhost:3000/google/download?url=<replacewithvideosharingurl>
-- To know the status of download and upload hit http://localhost:3000/google/status
+- To Login in app hit http://localhost:PORT/google/auth; Make sure to add gmail in test users in your console
+- To download the video hit http://localhost:PORT/google/download?url=<replacewithvideosharingurl>
+- To know the status of download and upload hit http://localhost:PORT/google/status
 
 The application will download the video from Google Drive and upload it to Google Drive.
 
