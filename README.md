@@ -72,8 +72,9 @@ To run the application, execute the following command in your terminal:
 ```bash
 npm start
 ```
-To Login in app hit http://localhost:3000/google/auth; Make sure to add gmail in test users in your console
-To download the video hit http://localhost:3000/google/download?url=<replacewithvideosharingurl>
+- To Login in app hit http://localhost:3000/google/auth; Make sure to add gmail in test users in your console
+- To download the video hit http://localhost:3000/google/download?url=<replacewithvideosharingurl>
+- To know the status of download and upload hit http://localhost:3000/google/status
 
 The application will download the video from Google Drive and upload it to Google Drive.
 
